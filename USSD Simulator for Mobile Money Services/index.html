@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USSD Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="phone">
+        <div class="screen">
+            <div class="network-bar">
+                <span class="network">Safaricom</span>
+                <span class="time">12:45</span>
+                <span class="battery">100%</span>
+            </div>
+            <div class="ussd-display" id="ussd-display">
+                <div class="welcome-message">
+                    <h2>USSD Simulator</h2>
+                    <p>Select a service to begin:</p>
+                </div>
+                <div class="menu-options">
+                    <button onclick="selectService('mpesa')">1. M-Pesa (Safaricom)</button>
+                    <button onclick="selectService('airtel')">2. Airtel Money</button>
+                    <button onclick="selectService('telekom')">3. Telekom Money</button>
+                </div>
+            </div>
+            <div class="keypad">
+                <div class="key-row">
+                    <button onclick="pressKey('1')">1</button>
+                    <button onclick="pressKey('2')">2</button>
+                    <button onclick="pressKey('3')">3</button>
+                </div>
+                <div class="key-row">
+                    <button onclick="pressKey('4')">4</button>
+                    <button onclick="pressKey('5')">5</button>
+                    <button onclick="pressKey('6')">6</button>
+                </div>
+                <div class="key-row">
+                    <button onclick="pressKey('7')">7</button>
+                    <button onclick="pressKey('8')">8</button>
+                    <button onclick="pressKey('9')">9</button>
+                </div>
+                <div class="key-row">
+                    <button onclick="pressKey('*')">*</button>
+                    <button onclick="pressKey('0')">0</button>
+                    <button onclick="pressKey('#')">#</button>
+                </div>
+                <div class="action-row">
+                    <button onclick="backAction()" class="back-btn">BACK</button>
+                    <button onclick="sendAction()" class="send-btn">SEND</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
