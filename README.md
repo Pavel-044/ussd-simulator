@@ -8,23 +8,23 @@ USSD Simulator Demo
 
 1.Full-service simulation of major mobile money platforms:
 
-  -M-Pesa (Safaricom)
+   -M-Pesa (Safaricom)
   
-  -Airtel Money
+   -Airtel Money
   
-  -Telekom Money
+   -Telekom Money
 
 2.Complete transaction flows:
 
-  -💸 Send money to other users
+   -💸 Send money to other users
   
-  -🏧 Withdraw cash (via agent or ATM)
+   -🏧 Withdraw cash (via agent or ATM)
   
-  -📱 Buy airtime (self/others)
+   -📱 Buy airtime (self/others)
+   
+   -🏪 Lipa na M-Pesa: Paybill & Buy Goods/Services
   
-  -🏪 Lipa na M-Pesa: Paybill & Buy Goods/Services
-  
-  -🔍 Check balance and mini statements
+   -🔍 Check balance and mini statements
 
 3.Realistic UI with responsive keypad and USSD-style menus
 
@@ -34,9 +34,9 @@ USSD Simulator Demo
 
 🛠️ Technologies Used
 
-Frontend	   Backend Logic	   Data Storage
+Frontend	          Backend Logic	           Data Storage
 
-HTML5	       JavaScript    	   localStorage
+HTML5	              JavaScript    	         localStorage
 
 CSS3	
 
@@ -44,33 +44,33 @@ CSS3
 
 Option 1: Run Locally
 
-Clone the repo:
+   Clone the repo:
 
-bash
+   bash
 
-git clone https://github.com/Pavel-044/USSD-simulator.git 
+   git clone https://github.com/Pavel-044/USSD-simulator.git 
 
-cd USSD-simulator  
+   cd USSD-simulator  
 
-Open index.html in any modern browser (Chrome/Firefox/Edge).
+   Open index.html in any modern browser (Chrome/Firefox/Edge).
 
 Option 2: Live Demo
 
-👉 Try it on GitHub Pages
+    👉 Try it on GitHub Pages
 
 🎮 How to Use
 
-1.Select a service (M-Pesa/Airtel Money/Telekom Money).
+   1.Select a service (M-Pesa/Airtel Money/Telekom Money).
 
-2.Navigate menus using the keypad or on-screen buttons.
+   2.Navigate menus using the keypad or on-screen buttons.
 
-3.Example Flow:
+   3.Example Flow:
 
- -Send money → Enter phone number → Enter amount → Confirm with PIN.
+      -Send money → Enter phone number → Enter amount → Confirm with PIN.
  
- -Check balance → Enter PIN → View balance.
+      -Check balance → Enter PIN → View balance.
 
-4.Data persists even after page refresh!
+   4.Data persists even after page refresh!
 
 📂 Project Structure
 
@@ -85,9 +85,9 @@ ussd-simulator/
 
 1. Fork the repo and create a branch:
  
-bash
+    bash
 
-git checkout -b feature/new-feature  
+    git checkout -b feature/new-feature  
 
 2. Test changes by opening index.html in a browser.
  
@@ -110,6 +110,7 @@ Menu Interface
 Simulator main menu showing service selection
 
 Screeshot preview
+
 ![31e50411-d71d-4ba5-a92f-8272c7280afc](https://github.com/user-attachments/assets/0bf67826-857b-43d9-bf96-eab930e8c564)
 
 
